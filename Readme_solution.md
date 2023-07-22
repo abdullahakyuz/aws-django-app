@@ -186,13 +186,13 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-git clone https://$TOKEN@<YOUR PRIVATE REPO URL> 
-cd /home/ubuntu/<YOUR PRIVATE REPO NAME>
+TOKEN="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"
+git clone https://$TOKEN@github.com/abdullahakyuz/aws-django-app.git
+cd /home/ubuntu/aws-django-app
 apt install python3-pip -y
 apt-get install python3.7-dev libmysqlclient-dev -y
 pip3 install -r requirements.txt
-cd /home/ubuntu/<YOUR PRIVATE REPO NAME>/src
+cd /home/ubuntu/aws-django-app/src
 python3 manage.py collectstatic --noinput
 python3 manage.py makemigrations
 python3 manage.py migrate
@@ -271,13 +271,13 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-git clone https://$TOKEN@<YOUR PRIVATE REPO URL>
-cd /home/ubuntu/<YOUR PRIVATE REPO NAME>
+TOKEN=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
+git clone https://$TOKEN@github.com/abdullahakyuz/aws-django-app.git
+cd /home/ubuntu/aws-django-app
 apt install python3-pip -y
 apt-get install python3.7-dev libmysqlclient-dev -y
 pip3 install -r requirements.txt
-cd /home/ubuntu/<YOUR PRIVATE REPO NAME>/src
+cd /home/ubuntu/aws-django-app/src
 python3 manage.py collectstatic --noinput
 python3 manage.py makemigrations
 python3 manage.py migrate
